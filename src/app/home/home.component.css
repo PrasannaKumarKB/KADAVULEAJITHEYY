@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://example.com/background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    color: #1a4d8f; /* College Blue */
+  }
+  
+  .header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Options Section */
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .option-box {
+    width: 300px;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .option-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .option-link {
+    text-decoration: none;
+    color: #1a4d8f;
+  }
+  
+  .option-link h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  .footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: #777;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  

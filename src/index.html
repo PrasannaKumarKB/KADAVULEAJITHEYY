@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Angular App</title>
+  <base href="/">
+  
+  <!-- Load Google API for Google Sign-In -->
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  
+  <!-- Metadata for Google Sign-In button -->
+  <meta name="google-signin-client_id" content="9132803845-lfhammfdo0tt46l8dgvusjtk2modck3p.apps.googleusercontent.com">
+
+</head>
+<body>
+  <app-root></app-root>
+
+  <!-- Initialize Google API -->
+  <script>
+    function init() {
+      gapi.load('auth2', function() {
+        gapi.auth2.init({
+          client_id: '9132803845-lfhammfdo0tt46l8dgvusjtk2modck3p.apps.googleusercontent.com',
+        });
+      });
+    }
+  </script>
+</body>
+</html>
