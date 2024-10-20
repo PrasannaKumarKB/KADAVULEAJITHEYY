@@ -137,7 +137,7 @@ interface Project {
   margin-bottom: 30px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 90%;
-  border: 5px solid;
+  border: 3px solid;
 }
 
 .header-logo img {
@@ -185,7 +185,7 @@ interface Project {
       position: sticky;
       top: 0;
       z-index: 10;
-      border:5px solid;
+      border:3px solid;
     }
 
     .navbar-left {
@@ -223,7 +223,7 @@ interface Project {
       padding: 20px;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      border:5px solid;
+      border:3px solid;
     }
 
     /* Submissions Section */
@@ -357,7 +357,6 @@ export class FacultyComponent {
       facultyName: 'Dr. Smith',
       status: null
     },
-    // Add more project details as needed
   ];
 
   selectedProject: Project | null = null;
